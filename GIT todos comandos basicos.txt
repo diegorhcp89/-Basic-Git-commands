@@ -1,0 +1,42 @@
+@diegorhcp89
+
+    cd para acessar a pasta
+    .. para voltar a pasta
+    git init
+        inicializar o repositorio
+    git config user.name / git config user.email
+        configurar nome e email
+        para verificar se está correto: git config user.name
+    git config --global user.name NAME
+        configura globalmente
+    git remote add origin https://github.com/diegorhcp89/myproject.git
+        adicionar a origem remota do git
+        para verificar se está correto: git remote -v
+    git status
+        verificar status do repositório local
+    git add 
+        adicionar files ao repositório'
+        para adicionar todas as files ao mesmo tempo: git add .
+    commit
+        salvar as atualizações por versão
+        git commit m "ESCREVER AQUI"
+        caso faça alterações: git add + commit
+    git push origin master
+        enviará para o repositório online
+        se fizer mais alguma alteração depois disso:
+        sempre fazer: GIT ADD, GIT COMMIT, GIT PUSH
+    git clone
+        criar uma cópia no computador de todos 
+        os arquivos existentes em um repositório remoto
+        assim como git init, git clone se executa apenas 1 vez
+            cd desktop > acessando um local de fácil acesso
+            mkdir project > criar uma pasta p organização
+            cd project > entrar nessa pasta
+            git clone https://github.com/natcmll/myproject.git
+            ls > mostra a pasta clonada
+            cd myproject > entra na pasta clonada
+            ls > mostra os arquivos na pasta clonada
+    git pull origin master
+        baixa e atualiza os arquivos que foram clonados anteriormente
+*/
+
